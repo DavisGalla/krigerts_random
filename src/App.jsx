@@ -1,5 +1,6 @@
 import { Translations } from './components/Translations/Translations.jsx'
 import { Summary } from './components/Summary/Summary.jsx'
+import { Functional } from './components/common/Functional.jsx'
 
 export function App() {
   return (
@@ -11,6 +12,7 @@ export function App() {
 
       <main className="pageMain">
         <Summary />
+        <Functional />
         <Translations />
       </main>
     </div>
