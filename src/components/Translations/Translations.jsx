@@ -1,17 +1,17 @@
 import { Table } from '../common/Table/Table.jsx'
 
 const GHERKIN_TERMS = [
-  { en: 'Feature', lv: 'Funkcionalitāte' },
-  { en: 'Rule', lv: 'Noteikums' },
-  { en: 'Background', lv: 'Fons' },
+  { en: 'Feature', lv: 'Funkcionālā iezīme' },
+  { en: 'Rule', lv: 'Noteikums / Nosacījums' },
+  { en: 'Background', lv: 'Konteksts' },
   { en: 'Scenario', lv: 'Scenārijs' },
-  { en: 'Scenario Outline', lv: 'Scenārija apraksts' },
+  { en: 'Scenario Outline', lv: 'Scenārija pēc parauga' },
   { en: 'Examples', lv: 'Piemēri' },
-  { en: 'Given', lv: 'Ņemot vērā' },
-  { en: 'When', lv: 'Kad' },
+  { en: 'Given', lv: 'Kad' },
+  { en: 'When', lv: 'Ja' },
   { en: 'Then', lv: 'Tad' },
   { en: 'And', lv: 'Un' },
-  { en: 'But', lv: 'Bet' },
+  { en: 'But, Or', lv: 'Bet / Vai' },
 ]
 
 export function Translations() {
