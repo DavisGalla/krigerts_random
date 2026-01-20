@@ -65,6 +65,35 @@ body {
   font-size: 18px;
 }
 
+.qaItem {
+  padding: 12px 0;
+  border-top: 1px solid var(--border);
+}
+
+.qaItem:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.qaTitle {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.qaBody p {
+  margin: 0 0 10px;
+}
+
+.qaBody ul {
+  margin: 0 0 10px;
+  padding-left: 18px;
+  color: var(--text);
+}
+
+.muted {
+  color: var(--muted);
+}
+
 .tableWrap {
   overflow-x: auto;
   border-radius: 12px;

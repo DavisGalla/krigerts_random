@@ -12,6 +12,7 @@ const GHERKIN_TERMS = [
   { en: 'Then', lv: 'Tad' },
   { en: 'And', lv: 'Un' },
   { en: 'But, Or', lv: 'Bet / Vai' },
+  { en: 'User story', lv: 'Lietotāja stāsts' },
 ]
 
 export function Translations() {
